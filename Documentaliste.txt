@@ -1,0 +1,11 @@
+GRANT UPDATE, DELETE ON *.* TO `Documentaliste`@`%` IDENTIFIED BY PASSWORD '*D9C2BE03C22561805236EAAAFBCBBDA2F4A89CA8';
+
+GRANT UPDATE, DELETE ON `sio1_tp5`.* TO `Documentaliste`@`%`;
+
+GRANT UPDATE, DELETE ON `sio1_tp5`.`livre` TO `Documentaliste`@`%`;
+
+GRANT UPDATE, DELETE ON `sio1_tp5`.`oeuvre` TO `Documentaliste`@`%`;
+
+GRANT UPDATE, DELETE ON `sio1_tp5`.`emprunt` TO `Documentaliste`@`%`;
+
+GRANT DELETE ON `sio1_tp5`.`adherent` TO `Documentaliste`@`%`;
